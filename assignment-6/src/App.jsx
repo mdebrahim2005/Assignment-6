@@ -5,6 +5,8 @@ import Banner from './Banner'
 import Revew from './Revew'
 import Toolsnav from './Toolsnav'
 import Card from './Card'
+import Just from './exta/Just'
+import Extacard from './exta/Extacard'
 
 
 
@@ -30,6 +32,9 @@ function App() {
     }>
            <Card carddatapromis={carddatapromis} />
     </Suspense>
+
+    <Just />
+    <Extacard />
     
     </>
   )

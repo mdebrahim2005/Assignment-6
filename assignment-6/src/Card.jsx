@@ -6,11 +6,11 @@ const Card = ({carddatapromis}) => {
     console.log(cards)
     return (
         <div> 
-            <div> 
+            <div className='grid grid-cols-2 lg:grid-cols-3 container mx-auto gap-10 gap-y-15'> 
                 {
                     cards?.map((card)=>{
                       return (
-                        <Cardsc card={card} />
+                        <Cardsc key={card.id} card={card} />
                       )
       } )
                 }

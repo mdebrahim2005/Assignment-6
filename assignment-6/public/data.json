@@ -6,6 +6,7 @@
     "price": 9.99,
     "period": "monthly",
     "tag": "Popular",
+    "img":"https://i.ibb.co.com/qYVfs25s/writing-2327400-1.png",
     "tagType": "popular",
     "features": [
       "100+ templates",
@@ -23,6 +24,7 @@
     "period": "yearly",
     "tag": "Best Seller",
     "tagType": "best-seller",
+    "img":"https://i.ibb.co.com/yFdrMgCf/design-tool.png",
     "features": [
       "Unlimited resumes",
       "LinkedIn optimization",
@@ -38,6 +40,7 @@
     "price": 19.99,
     "period": "one-time",
     "tag": "New",
+     "img":"https://i.ibb.co.com/wD3s7NM/operation.png",
     "tagType": "new",
     "features": [
       "50+ portfolio layouts",
@@ -54,6 +57,7 @@
     "price": 14.99,
     "period": "monthly",
     "tag": "Popular",
+     "img":"https://i.ibb.co.com/wD3s7NM/operation.png",
     "tagType": "popular",
     "features": [
       "Invoice generator",
@@ -71,6 +75,7 @@
     "period": "one-time",
     "tag": "Best Seller",
     "tagType": "best-seller",
+    "img":"https://i.ibb.co.com/wD3s7NM/operation.png",
     "features": [
       "Business plan templates",
       "Pitch deck builder",
@@ -87,6 +92,7 @@
     "period": "monthly",
     "tag": "New",
     "tagType": "new",
+    "img":"https://i.ibb.co.com/C59LbBRR/social-media.png",
     "features": [
       "5000+ design assets",
       "Social media templates",

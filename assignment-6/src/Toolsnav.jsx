@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+
+
 
 const Toolsnav = () => {
+
+    const [products , setproducts]=useState("Products")
     return (
         <div> 
             <div className=' flex flex-col  items-center py-15'>
@@ -17,8 +22,14 @@ const Toolsnav = () => {
             </div>
 
                <div className=''>
-                <button className="btn rounded-full">Products</button>
-                <button className="btn rounded-full">Cart (2)</button>
+                <button onClick={()=>setproducts("Products")}
+                 className={`btn rounded-full ${products==="Products"?"bg-[#9514FA]"
+                    :"bg-white"
+                 } `} >Products</button>
+                <button onClick={()=>setproducts("Cart")}
+                 className={`btn rounded-full ${products==="Cart"?"bg-[#9514FA]"
+                    :"bg-white"
+                 }`}>Cart (2)</button>
                </div>
 
 
@@ -30,3 +41,8 @@ const Toolsnav = () => {
 };
 
 export default Toolsnav;
+
+
+
+
+  
