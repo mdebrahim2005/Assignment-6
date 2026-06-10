@@ -25,11 +25,11 @@ const Banner = () => {
 
       </p>
         <div className='flex items-center  gap-5 '>
-          <button class="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold py-2 px-4 rounded-full  hover:from-[#8d03f6] hover:to-[#290fef]">
+          <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold py-2 px-4 rounded-full  hover:from-[#8d03f6] hover:to-[#290fef]">
            Explore Products</button>  
            <button className="btn btn-outline btn-primary rounded-full">
             <img src={Play}   />
-            Primary</button> 
+            Watch Demo</button> 
     </div>
 
       

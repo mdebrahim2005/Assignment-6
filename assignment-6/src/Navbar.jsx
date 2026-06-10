@@ -22,8 +22,8 @@ const Navbar = () => {
 
        <div className='flex items-center gap-2'>
         <CiShoppingCart className='w-6 h-6' />
-        <button class="mx-3">Login</button>
-        <button class="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold py-2 px-4 rounded-full  hover:from-[#8d03f6] hover:to-[#290fef]">
+        <button className="mx-3">Login</button>
+        <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold py-2 px-4 rounded-full  hover:from-[#8d03f6] hover:to-[#290fef]">
             Get Started</button>                                                                                                                            
 
      </div>

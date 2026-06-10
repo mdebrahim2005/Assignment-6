@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Pro",
+    "description": "Create professional resumes with ATS-friendly templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter builder"
+    ],
+    "icon": "FaFileAlt"
+  },
+  {
+    "id": 2,
+    "name": "Career Boost",
+    "description": "Advanced career toolkit for job seekers.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited resumes",
+      "LinkedIn optimization",
+      "Interview preparation",
+      "Priority support"
+    ],
+    "icon": "FaBriefcase"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Builder",
+    "description": "Build stunning personal portfolios in minutes.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "50+ portfolio layouts",
+      "Custom domain support",
+      "SEO optimization",
+      "Mobile responsive"
+    ],
+    "icon": "FaGlobe"
+  },
+  {
+    "id": 4,
+    "name": "Freelancer Kit",
+    "description": "Everything freelancers need to manage clients.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Invoice generator",
+      "Client management",
+      "Project tracking",
+      "Payment reminders"
+    ],
+    "icon": "FaUserTie"
+  },
+  {
+    "id": 5,
+    "name": "Startup Launch",
+    "description": "Launch your startup with ready-made resources.",
+    "price": 99.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Business plan templates",
+      "Pitch deck builder",
+      "Financial forecasting",
+      "Investor resources"
+    ],
+    "icon": "FaRocket"
+  },
+  {
+    "id": 6,
+    "name": "Design Studio",
+    "description": "Access premium design assets and templates.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "5000+ design assets",
+      "Social media templates",
+      "Brand kit creator",
+      "Cloud storage"
+    ],
+    "icon": "FaPalette"
+  }
+
+]
