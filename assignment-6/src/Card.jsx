@@ -1,7 +1,7 @@
 import React, { use } from 'react';
 import Cardsc from './Cardsc';
 
-const Card = ({carddatapromis}) => {
+const Card = ({carddatapromis,selectedProducts,handelselect}) => {
     const cards =use(carddatapromis)
     console.log(cards)
     return (
@@ -10,7 +10,10 @@ const Card = ({carddatapromis}) => {
                 {
                     cards?.map((card)=>{
                       return (
-                        <Cardsc key={card.id} card={card} />
+                        <Cardsc key={card.id} card={card}
+                         selectedProducts={selectedProducts}
+                         handelselect={handelselect}
+                        />
                       )
       } )
                 }

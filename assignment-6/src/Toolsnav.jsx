@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import Cardsc from './Cardsc';
 
 
 
 
-const Toolsnav = () => {
+const Toolsnav = ({selectedProducts,active,setactive,count, setcount}) => {
 
-    const [products , setproducts]=useState("Products")
+    // const [products , setproducts]=useState("Products")
     return (
         <div> 
             <div className=' flex flex-col  items-center py-15'>
@@ -22,19 +23,22 @@ const Toolsnav = () => {
             </div>
 
                <div className=''>
-                <button onClick={()=>setproducts("Products")}
-                 className={`btn rounded-full ${products==="Products"?"bg-[#9514FA]"
+                <button onClick={()=>setactive("Products")}
+                 className={`btn rounded-full ${active==="Products"?"bg-[#9514FA]"
                     :"bg-white"
                  } `} >Products</button>
-                <button onClick={()=>setproducts("Cart")}
-                 className={`btn rounded-full ${products==="Cart"?"bg-[#9514FA]"
+                <button onClick={()=>setactive("Cart")}
+                 className={`btn rounded-full ${active==="Cart"?"bg-[#9514FA]"
                     :"bg-white"
-                 }`}>Cart (2)</button>
+                 }`}>Cart ({selectedProducts.length || 0})</button>
                </div>
 
 
 
             </div>
+
+     
+           
             
         </div>
     );
